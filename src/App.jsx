@@ -6,6 +6,7 @@ import Technologies from "./components/Technologies.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
+import Education from "./components/Education.jsx";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        {/*<Education />*/}
         <Technologies />
         <Projects />
         <Contact />

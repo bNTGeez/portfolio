@@ -1,3 +1,5 @@
+import project1 from "../assets/projects/food-recipe.png";
+
 export const HERO_CONTENT = `I am a developer with a passion to create web applications. My goal is to create helpful applications and deliver exceptional user experiences.`;
 
 //I am an upcoming software engineer honing my skills in HTML/CSS, Javascript, and ReactJS
@@ -8,16 +10,11 @@ export const EXPERIENCES = [{}];
 
 export const PROJECTS = [
   {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["ReactJS", "TailwindCSS", "Framer Motion"],
-  },
-  {
     title: "Food Recipe",
     description:
       "A platform to searching up different food recipes using the spoonacular API",
     technologies: ["ReactJS", "Postman"],
+    image: project1,
   },
 ];
 
