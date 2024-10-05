@@ -22,7 +22,7 @@ const Projects = () => {
               className="w-full lg:w-1/4"
             >
               <a
-                href="https://github.com/bNTGeez/food-recipe"
+                href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
               >

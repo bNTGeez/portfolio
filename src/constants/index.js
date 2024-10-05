@@ -1,4 +1,5 @@
-import project1 from "../assets/projects/food-recipe.png";
+import project1 from "../assets/projects/chatbot.jpg";
+import project2 from "../assets/projects/notesAI.jpg";
 
 export const HERO_CONTENT = `I am a developer with a passion to create web applications. My goal is to create helpful applications and deliver exceptional user experiences.`;
 
@@ -10,11 +11,20 @@ export const EXPERIENCES = [{}];
 
 export const PROJECTS = [
   {
-    title: "Food Recipe",
+    title: "Chatbot",
     description:
-      "A platform to searching up different food recipes using the spoonacular API",
-    technologies: ["ReactJS", "Postman"],
-    image: project1,
+      "chat bot to provide accurate and timely answers to JavaScript related questions",
+    technologies: ["Next.js", "Pinecone", "OpenAI", "Material-UI", "Vercel"],
+    github: "https://github.com/bNTGeez/chatbot",
+    image: project1
+  },
+  {
+    title: "NotesAI",
+    description:
+      "A bot that generates video summaries based on YouTube Video IDs",
+    technologies: ["Next.js", "OpenAI", "Material-UI", "TailwindCSS"],
+    github: "https://github.com/bNTGeez/NotesAI",
+    image: project2
   },
 ];
 

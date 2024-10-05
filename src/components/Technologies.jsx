@@ -2,6 +2,13 @@ import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiOpenai,
+  SiFirebase,
+  SiTailwindcss,
+} from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -66,6 +73,38 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaCss3 className="text-7xl text-red-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNextdotjs className="text-7xl text-black" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiOpenai className="text-7xl text-gray-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiFirebase className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTailwindcss className="text-7xl text-cyan-400" />
         </motion.div>
       </motion.div>
     </div>
