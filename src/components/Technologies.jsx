@@ -7,6 +7,13 @@ import {
   SiOpenai,
   SiFirebase,
   SiTailwindcss,
+  SiTypescript,
+  SiMongodb,
+  SiClerk,
+  SiMaterialdesignicons,
+  SiPython,
+  SiFlask,
+  SiNpm,
 } from "react-icons/si";
 
 import { motion } from "framer-motion";
@@ -105,6 +112,62 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiTailwindcss className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMongodb className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiClerk className="text-7xl text-gray-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMaterialdesignicons className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPython className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiFlask className="text-7xl text-gray-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNpm className="text-7xl text-red-500" />
         </motion.div>
       </motion.div>
     </div>

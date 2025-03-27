@@ -30,7 +30,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              Developer
+              Full Stack Developer
             </motion.span>
             <motion.p
               variants={container(1)}
